@@ -57,7 +57,7 @@ def counter():
     output.insert("end","Amount of words: %d\n" % len(words))
     output.insert("end","Amount of nonrepeatable words: %d\n" % len(words))
 
-#Запись контента gjkz output в файл
+#Запись контента поля output в файл
 def export():
     file = ''
 
